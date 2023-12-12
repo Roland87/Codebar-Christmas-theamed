@@ -1,0 +1,24 @@
+<!-- home.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <section>
+        <h2>Season's Greetings!</h2>
+        <p>Wishing you a joyful and code-tastic Christmas!</p>
+        <img src="{{ url_for('static', filename='christmas_image.jpg') }}" alt="Christmas Scene" width="400">
+        <p>Celebrate the holidays with coding cheer!</p>
+    </section>
+    <section>
+        <h2>Jingle Codebar</h2>
+        <pre>
+Coding through the code
+In a one-line open file
+O'er the loops we go
+Debugging all the while
+Bells on keyboards ring
+Making syntax bright
+What fun it is to code and sing
+A coding song tonight!
+        </pre>
+    </section>
+{% endblock %}
