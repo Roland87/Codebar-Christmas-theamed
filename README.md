@@ -14,5 +14,5 @@ This festive project is a delightful combination of coding and holiday cheer. Ex
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/codebar-christmas-project.git
+   git clone https://github.com/Roland87/codebar-christmas-project.git
    cd codebar-christmas-project
